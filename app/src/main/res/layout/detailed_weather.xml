@@ -1,6 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/blue">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="262dp"
+        android:layout_height="51dp"
+        android:text="@string/DetaliedScreen"
+        android:textColor="@color/darkblue"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="50dp" />
+
+    <TextView
+        android:id="@+id/textDay"
+        android:layout_width="285dp"
+        android:layout_height="80dp"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="150dp" />
+
+    <TextView
+        android:id="@+id/textWeather"
+        android:layout_width="285dp"
+        android:layout_height="80dp"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="264dp" />
+
+    <TextView
+        android:id="@+id/textMinTemp"
+        android:layout_width="285dp"
+        android:layout_height="80dp"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="380dp" />
+
+    <TextView
+        android:id="@+id/textMaxTemp"
+        android:layout_width="285dp"
+        android:layout_height="80dp"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="507dp" />
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="134dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="122dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="@string/back"
+        android:textColor="@color/darkblue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textMaxTemp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

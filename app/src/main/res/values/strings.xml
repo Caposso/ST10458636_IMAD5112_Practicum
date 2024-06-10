@@ -4,4 +4,9 @@
     <string name= "name">Name: Walmor Vicente</string>
     <string name= "Number">Student No: ST10458636</string>
     <string name= "mainScreen"> > Main Screen</string>
+    <string name= "detaliedScreen"> > Detailed View Screen</string>
+    <string name= "MainScreen">Main Screen</string>
+    <string name= "DetaliedScreen">Detailed View Screen</string>
+    <string name= "back"> > Back to Main Screen</string>
+
 </resources>
