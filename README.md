@@ -24,5 +24,6 @@ Guide to operate in the APP
 <img width="1512" alt="Screenshot 2024-06-10 at 15 46 08" src="https://github.com/Caposso/ST10458636_IMAD5112_Practicum/assets/164025255/ddfab41f-31fb-44db-b9e3-ee620a9b4724">
 <img width="1512" alt="Screenshot 2024-06-10 at 15 46 03" src="https://github.com/Caposso/ST10458636_IMAD5112_Practicum/assets/164025255/1afb9c5d-4ddf-43a1-b1e5-1e42bbdf4aa5">
 <img width="1512" alt="Screenshot 2024-06-10 at 15 45 55" src="https://github.com/Caposso/ST10458636_IMAD5112_Practicum/assets/164025255/ef85e642-7ab6-43f0-b288-9e919db15611">
+https://github.com/Caposso/ST10458636_IMAD5112_Practicum.git 
 
 
