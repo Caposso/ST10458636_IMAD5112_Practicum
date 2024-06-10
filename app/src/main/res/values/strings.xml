@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Praticum</string>
+    <string name= "Clima">CLIMA</string>
+    <string name= "name">Name: Walmor Vicente</string>
+    <string name= "Number">Student No: ST10458636</string>
+    <string name= "mainScreen"> > Main Screen</string>
+</resources>
