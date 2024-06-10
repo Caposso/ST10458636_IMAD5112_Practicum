@@ -18,7 +18,7 @@ class DetailedWeather : AppCompatActivity() {
     val maxTemperature = arrayOf(25, 23, 27, 21, 20, 15, 13)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_weather)
+        setContentView(R.layout.detailed_weather)
 
     }
 }
