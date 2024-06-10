@@ -27,6 +27,16 @@ class DetailedWeather : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.detailed_weather)
 
+        // Declare the Variable
+        val buttonBack = findViewById<Button>(R.id.buttonBack)
+        // Set button On Click Listener
+        buttonBack.setOnClickListener {
+            // Create the explicit intent
+            val intent = Intent(this, MainActivity::class.java)
+            // Start Activity
+            startActivity(intent)
+        }
+
 
 
 

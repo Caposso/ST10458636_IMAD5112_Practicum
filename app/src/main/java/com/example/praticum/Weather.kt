@@ -8,6 +8,7 @@ import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 
 class Weather : AppCompatActivity() {
+    // Declaring variables at class so I can use it Globally
     val editText1: EditText = findViewById(R.id.editText1)
     val editText2: EditText = findViewById(R.id.editText2)
     val editText3: EditText = findViewById(R.id.editText3)
@@ -18,11 +19,13 @@ class Weather : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_weather)
-
+        //Creating a variable that the information that the user inputted is going to be displayed
         val textDisplay = findViewById<TextView>(R.id.averageDisplay)
+        //creating a button so that when the presses is going to calculate the average
         val button2 = findViewById<Button>(R.id.button2)
-
+        //setting the button on set click listener
         button2.setOnClickListener {
+            //creating a array so the value can be stored
             val temperatures = arrayOf(
                 editText1.text.toString().toFloatOrNull() ?: 0f,
                 editText2.text.toString().toFloatOrNull() ?: 0f,
@@ -32,9 +35,11 @@ class Weather : AppCompatActivity() {
                 editText6.text.toString().toFloatOrNull() ?: 0f,
                 editText7.text.toString().toFloatOrNull() ?: 0f
             )
+            //Creating a variable so it can be use to calculate the average
             val sum = temperatures.sum()
+            //calculating the average using the total of the array dividing it by its Size
             val average = sum / temperatures.size
-
+            //Displaying the Average
             textDisplay.text = "Average Temperature: $average"
         }
         // Declare the Variable
